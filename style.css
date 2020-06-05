@@ -1,0 +1,86 @@
+body { 
+    background-color: #e0fbfc;
+}
+
+.videoCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 20px 0px;   
+    padding: 20px;
+    background-color: #98c1d9;
+    color: #293241;
+    box-shadow: 0px 1px 15px #3d5a80;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    box-shadow: 0px 4px 7px #3d5a80;
+}
+
+.videoWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.downloadButton {
+    height: 30%;
+    background-color: #ee6c4d;
+    color: #e0fbfc;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 0px 1px 13px #3d5a80;
+}
+
+.downloadButton:hover {
+    background-color: #e0fbfc;
+    color: #ee6c4d;
+    box-shadow: 0px 5px 10px #3d5a80;
+}
+
+.digButton {
+    margin-top: 20px;
+    width: 100px;
+    background-color: #ee6c4d;
+    color: #e0fbfc;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 0px 1px 13px #3d5a80;
+}
+
+.digButton:hover {
+    background-color: #e0fbfc;
+    color: #ee6c4d;
+    box-shadow: 0px 5px 10px #3d5a80;
+}
+
+.resultsHeader {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.resultsButton {
+    width: 100px;
+}
+
+.exampleButton {
+    margin-top: 20px;
+    width: 200px;
+    background-color: #ee6c4d;
+    color: #e0fbfc;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 0px 1px 13px #3d5a80;
+}
+
+.exampleButton:hover {
+    background-color: #e0fbfc;
+    color: #ee6c4d;
+    box-shadow: 0px 5px 10px #3d5a80;
+}
